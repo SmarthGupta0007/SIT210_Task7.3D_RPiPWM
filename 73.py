@@ -10,7 +10,7 @@ trig = 23
 echo = 19
 led = 16
 
-pwm = GPIO.PWM(21, 100)                 
+pwm = GPIO.PWM(16, 100)                 
 pwm.start(100)
 
 def cal_distance():
